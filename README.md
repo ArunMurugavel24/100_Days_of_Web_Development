@@ -9,4 +9,4 @@ If you feel like supporting me you can do that [here](https://www.buymeacoffee.c
 ## Progress...
 
 1. [Day 1](https://arunmurugavel24.github.io/Day_1/) - [Source-Code](https://github.com/ArunMurugavel24/Day_1)
-2. [Day 2]() - [Source-Code]()
+2. [Day 2](https://arunmurugavel24.github.io/Day_2/) - [Source-Code](https://github.com/ArunMurugavel24/Day_2)
