@@ -1,4 +1,4 @@
-# Welcome to my **"100 Days of Web Coding"** challenge.
+# Welcome to my **"100 Days of Web Development"** challenge.
 
 In this challenge I will be coding unique responsive website every day for 100 days. These websites are mobile responsive and are customized with animations as well.
 
