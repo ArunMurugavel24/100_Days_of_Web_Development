@@ -2,6 +2,8 @@
 
 In this challenge I will be coding unique responsive website every day for 100 days. These websites are mobile responsive and are customized with animations as well.
 
+![Banner]()
+
 You can track my progress here in this repository. I will be leaving the links to the live deployed webisite and to the source code below.
 
 If you feel like supporting me you can do that [here](https://www.buymeacoffee.com/ArunMurugavel24)
