@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 2 - Responsive Web Coding</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="./assets/logo.png" alt="" class="logo" /></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBx">
+          <h2>It's not just coffee<br />It's <span>Starbucks</span></h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perferendis quod beatae voluptatum a aspernatur, id, distinctio
+            omnis harum earum ducimus illo, saepe similique! Quibusdam labore
+            tempore numquam alias delectus impedit veniam.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBx">
+          <img src="./assets/img1.png" alt="" class="starbucks" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./assets/thumb1.png"
+            alt=""
+            onclick="imgSlider('assets/img1.png'); changeCircleColor('#017143')"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/thumb2.png"
+            alt=""
+            onclick="imgSlider('assets/img2.png'); changeCircleColor('#eb7495')"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/thumb3.png"
+            alt=""
+            onclick="imgSlider('assets/img3.png'); changeCircleColor('#d752b1')"
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="./assets/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/instagram.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/twitter.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
