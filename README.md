@@ -2,7 +2,7 @@
 
 In this challenge I will be coding unique responsive website every day for 100 days. These websites are mobile responsive and are customized with animations as well.
 
-![Banner](https://github.com/ArunMurugavel24/100_Days_of_Web_Development/blob/master/100%20Days%20of%20Web%20Coding%20-%20GitHub%20Banner.png)
+![Banner](https://github.com/ArunMurugavel24/100_Days_of_Web_Development/blob/master/100%20Days%20of%20Web%20Development%20-%20GitHub%20Banner.png)
 
 You can track my progress here in this repository. I will be leaving the links to the live deployed webisite and to the source code below.
 
