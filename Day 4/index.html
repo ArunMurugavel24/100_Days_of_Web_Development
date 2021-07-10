@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3 - Responsive Web Development</title>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="./assets/logo.png" alt="" /></a>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="search" />
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+    </header>
+    <div class="banner">
+      <img src="./assets/bg.jpg" alt="" class="bg" />
+      <div class="content">
+        <img src="./assets/name.png" alt="" class="movieTitle" />
+        <h4>
+          <span>2020</span>
+          <span><i>12+</i></span>
+          <span>1h 55min</span>
+          <span>Action</span>
+        </h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat,
+          fuga ea deleniti non quas voluptatem ducimus soluta nobis illo, vel
+          voluptate dolorem sit, distinctio aliquid. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Voluptates, quas.
+        </p>
+        <div class="buttons">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+        </div>
+      </div>
+      <a href="#" class="play" onclick="toggleVideo();"
+        ><img src="./assets/play.png" alt="" />Watch Trailer</a
+      >
+    </div>
+    <div class="trailer">
+      <video
+        src="./assets/mulan_trailer.mp4"
+        controls="true"
+        autoplay="true"
+      ></video>
+      <img
+        src="./assets/close.png"
+        alt=""
+        class="close"
+        onclick="toggleVideo();"
+      />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
