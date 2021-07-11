@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 5 - Responsive Web Development</title>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Swiper JS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="./assets/logo.png" alt="" class="logo" /></a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="navigation" onclick>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBx">
+          <h2>Taste the Feeling</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+            quas maxime accusantium quia nostrum quibusdam dolorem architecto ex
+            ab. Neque possimus quaerat nemo rem dolorum fugiat est accusamus
+            recusandae explicabo sapiente minima facere deserunt doloribus,
+            minus libero laudantium aut labore.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBx">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/cocacola1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola2.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola3.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola4.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola5.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola6.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="./assets/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/twitter.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/instagram.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

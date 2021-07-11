@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161616;
+}
+
+section .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e51e2a;
+  clip-path: circle(70% at right -20%);
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+header .logo {
+  position: relative;
+  max-width: 150px;
+}
+
+header .navigation {
+  position: relative;
+  display: flex;
+}
+
+header .navigation li {
+  list-style: none;
+}
+
+header .navigation li a {
+  display: inline-block;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+header .navigation li a:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textBx {
+  position: relative;
+  max-width: 600px;
+  margin-right: 20px;
+}
+
+.content .textBx h2 {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+  font-weight: 700;
+}
+
+.content .textBx p {
+  color: #fff;
+}
+
+.content .textBx a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #e51e2a;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.sci {
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: inline-block;
+  margin-left: 15px;
+  background: #222;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+
+.sci li a:hover {
+  background: #e51e2a;
+  transform: translateY(-10px);
+}
+
+.sci li a img {
+  filter: invert(1);
+  transform: scale(0.5);
+}
+
+/* Slider */
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 180px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+}
+
+.content .imgBx {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content .imgBx img {
+  max-width: 150px;
+}
+
+.swiper-slide img {
+  position: absolute;
+  max-height: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 970px) {
+  header {
+    padding: 40px;
+  }
+
+  section {
+    padding: 150px 40px;
+  }
+
+  .sci {
+    left: 40px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content .textBx,
+  .content .imgBx {
+    max-width: 100%;
+  }
+
+  .content .imgBx {
+    margin-top: 50px;
+  }
+
+  .swiper-slide {
+    height: 300px;
+  }
+
+  header .navigation {
+    display: none;
+  }
+
+  header .navigation.active {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e51e2a;
+    color: #fff;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 300;
+  }
+
+  .toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(./assets/menu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .toggle.active {
+    position: fixed;
+    right: 40px;
+    background: url(./assets/close.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media (max-width: 360px) {
+   .content .imgBx {
+    margin-top: 30px;
+  }
+}
