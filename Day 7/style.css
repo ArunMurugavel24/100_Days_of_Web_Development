@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #641b4e;
+}
+
+section {
+  position: relative;
+  padding: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section .logo {
+  position: fixed;
+  top: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  z-index: 100;
+  cursor: pointer;
+}
+
+section .bg {
+  position: absolute;
+  top: 0;
+  right: 60px;
+  height: 100%;
+}
+
+section .content {
+  position: relative;
+  z-index: 1;
+  max-width: 650px;
+}
+
+section .content h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+section .content p {
+  color: #fff;
+  font-size: 1.1em;
+  margin: 20px 0;
+}
+
+section .content a {
+  color: #fff;
+  background: #f60f20;
+  font-size: 1em;
+  margin: 20px 0;
+  font-weight: 500;
+  padding: 10px 30px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.copyrightText {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  font-size: 1.1em;
+  margin: 20px;
+}
+
+.menuToggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: #f60f20 url('./assets/menu.png') no-repeat center;
+  background-size: 30px;
+  cursor: pointer;
+  z-index: 150;
+}
+
+.menuToggle.active {
+  background: #f60f20 url('./assets/close.png') no-repeat center;
+  background-size: 25px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: calc(100% - 60px);
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.navigation.active {
+  left: 0;
+}
+
+.navigation ul {
+  position: relative;
+}
+
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  text-align: center;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #111;
+}
+
+.navigation ul li a:hover {
+  color: #f60f20;
+}
+
+.socialBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialBar ul {
+  position: relative;
+}
+
+.socialBar ul li {
+  list-style: none;
+  position: relative;
+}
+
+.socialBar ul li a {
+  position: relative;
+  display: inline-block;
+  transform: scale(0.6);
+}
+
+.socialBar .emailBx {
+  position: absolute;
+  bottom: 20px;
+  transform: scale(0.6);
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 100px 40px;
+  }
+
+  section .content h2 {
+    font-size: 2.5em;
+  }
+
+  .navigation {
+    left: 100%;
+  }
+
+  section .bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+
+  section .logo {
+    top: 10px;
+    font-size: 1.5em;
+  }
+
+  .navigation ul li a {
+    font-size: 2em;
+  }
+}
