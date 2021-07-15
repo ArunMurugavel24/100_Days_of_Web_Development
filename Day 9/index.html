@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 9 - Responsive Web Development</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="./assets/logo.png" alt="" /></a>
+      <div class="toggle">
+        <img src="./assets/toggle.png" alt="" />
+      </div>
+    </header>
+    <div class="banner">
+      <div class="content">
+        <h2>Put on a <span>Happy</span> face</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          maxime blanditiis illum ipsum in quas natus nobis architecto ea vero.
+          Totam, praesentium delectus sequi distinctio neque atque excepturi
+          architecto quibusdam!
+        </p>
+        <a href="#" class="play" onclick="toggle();"
+          ><img src="./assets/play.png" alt="" />Watch Trailer</a
+        >
+      </div>
+      <div class="slide"></div>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="./assets/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/instagram.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/twitter.png" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="trailer">
+      <video
+        src="./assets/JOKER - Final Trailer - Now Playing In Theaters.mp4"
+        controls="True"
+      ></video>
+      <img src="./assets/close.png" alt="" class="close" onclick="toggle();" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
