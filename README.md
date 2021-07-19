@@ -21,3 +21,4 @@ If you feel like supporting me you can do that [here](https://www.buymeacoffee.c
 9. [Day 9](https://arunmurugavel24.github.io/Day_9/) - [Source-Code](https://github.com/ArunMurugavel24/Day_9)
 10. [Day 10](https://arunmurugavel24.github.io/Day_10/) - [Source-Code](https://github.com/ArunMurugavel24/Day_10)
 11. [Day 11](https://arunmurugavel24.github.io/Day_11/) - [Source-Code](https://github.com/ArunMurugavel24/Day_11)
+12. [Day 12](https://arunmurugavel24.github.io/Day_12/) - [Source-Code](https://github.com/ArunMurugavel24/Day_12)
