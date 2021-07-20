@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #1e2227;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 8%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1e2227;
+  z-index: 1;
+}
+
+.logo {
+  cursor: pointer;
+  width: 120px;
+}
+
+.nav-icons img {
+  width: 25px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.row .col1,
+.row .col2 {
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row .col2 {
+  background: red;
+  padding-top: 8%;
+  position: relative;
+}
+
+.row .col1 {
+  padding-left: 8%;
+}
+
+.row .col1 h1 {
+  font-size: 74px;
+  line-height: 100px;
+  margin-bottom: 5px;
+}
+
+.row .col1 h2 {
+  font-size: 35px;
+  margin-top: 60px;
+  font-weight: 500;
+}
+
+.row .col1 button {
+  display: inline-block;
+  width: fit-content;
+  padding: 18px 50px;
+  background: red;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.row .col1 button:hover {
+  background: #aa0505;
+  transform: translateY(-5px);
+}
+
+.feature-img {
+  width: 100%;
+  text-align: center;
+}
+
+.feature-img img {
+  width: 80%;
+  transform: rotate(-20deg);
+}
+
+.small-img-row {
+  display: flex;
+  width: 80%;
+  margin: 70px auto 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.small-img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.small-img:hover {
+  transform: scale(1.2);
+}
+
+.small-img img {
+  width: 120px;
+  transform: translate(-50px, 20px) rotate(-20deg);
+}
+
+.small-img:nth-child(1) {
+  background: #b9c8ff;
+}
+
+.small-img:nth-child(2) {
+  background: #91ffdd;
+}
+
+.small-img:nth-child(3) {
+  background: #ff6767;
+}
+
+.small-img:nth-child(4) {
+  background: #9dff90;
+}
+
+.col2 h2 {
+  position: absolute;
+  left: 10%;
+  top: 22%;
+  font-size: 130px;
+  opacity: 0.3;
+}

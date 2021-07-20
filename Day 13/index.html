@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 12 - Responsive Web Development</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="./assets/logo.png" alt="" class="logo" />
+        <div class="nav-icons">
+          <img src="./assets/search.png" alt="" />
+          <img src="./assets/cart.png" alt="" />
+          <img src="./assets/menu.png" alt="" />
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col1">
+          <h1>NIKE<br />SPORTS AIR</h1>
+          <p>
+            The Nike Air Zoom Vomero 15 Is Back Updated Cushioning<br />And A
+            Tough Outside For Traction
+          </p>
+          <h2>$150</h2>
+          <button type="button">ADD TO CART</button>
+        </div>
+        <div class="col2">
+          <div class="feature-img">
+            <img src="./assets/nike.png" alt="" class="shoe" />
+          </div>
+          <div class="small-img-row">
+            <div class="small-img">
+              <img
+                src="./assets/nike-b.png"
+                alt=""
+                onclick="imgSlider('./assets/nike-b.png');"
+              />
+            </div>
+            <div class="small-img">
+              <img
+                src="./assets/nike-s.png"
+                alt=""
+                onclick="imgSlider('./assets/nike-s.png');"
+              />
+            </div>
+            <div class="small-img">
+              <img
+                src="./assets/nike.png"
+                alt=""
+                onclick="imgSlider('./assets/nike.png');"
+              />
+            </div>
+            <div class="small-img">
+              <img
+                src="./assets/nike-g.png"
+                alt=""
+                onclick="imgSlider('./assets/nike-g.png');"
+              />
+            </div>
+          </div>
+          <h2>NIKE</h2>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
