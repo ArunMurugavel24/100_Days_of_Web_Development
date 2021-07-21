@@ -51,6 +51,7 @@ header .search {
   position: relative;
   width: 300px;
   height: 40px;
+  z-index: 1;
 }
 
 header .search input {
@@ -192,6 +193,7 @@ header .search .fa-search {
   letter-spacing: 1px;
   font-size: 1.2em;
   cursor: pointer;
+  z-index: 1;
 }
 
 .play img {
@@ -287,3 +289,5 @@ header .search .fa-search {
     bottom: 50px;
   }
 }
+
+
