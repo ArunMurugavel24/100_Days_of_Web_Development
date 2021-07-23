@@ -1,11 +1,11 @@
-# Day 4
-Day 4 Project of my "[100 Days of Web Development](https://github.com/ArunMurugavel24/100_Days_of_Web_Coding)" Challenge.
+# Day 14
+Day 14 Project of my "[100 Days of Web Development](https://github.com/ArunMurugavel24/100_Days_of_Web_Coding)" Challenge.
 
 [Here](https://arunmurugavel24.github.io/Day_4/) is the live deployed website.
 
 # Preview
 
-![Day 4 Website Preview Image](https://github.com/ArunMurugavel24/Day_4/blob/master/Day%204.jpg)
+![Day 14 Website Preview GIF](https://github.com/ArunMurugavel24/Day_14/blob/master/Day%2014.gif)
 
 # Contribute
 
